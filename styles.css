@@ -53,6 +53,7 @@ li {
   list-style: none;
 }
 
+
 button {
   -moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
   -webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
@@ -78,6 +79,7 @@ button {
   padding:2px 6px;
   text-decoration:none;
   text-shadow:0px -1px 0px #2b665e;
+  float: right;
 }
 button:hover {
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3e8b85), color-stop(1, #768d87));
@@ -93,6 +95,8 @@ button:active {
   position:relative;
   top:1px;
 }
+
+
 
 .fa-shopping-cart {
   margin-left: 2.7em;;
@@ -123,4 +127,13 @@ button:active {
 span {
   margin: 0;
   font-family: 'Lobster', cursive;
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    padding: 3em 0;
+  }
+  .inset {
+    padding: 3em 0;
+  }
 }
