@@ -14,7 +14,7 @@ h3 {
 .inset {
   border: solid #C0B3AB 2px;
   width: 20em;
-  height: 20em;
+  min-height: 4em;
   padding: 5em 5em;
   margin: 0 auto;
   background-color: #E4DFD8
@@ -80,6 +80,7 @@ button {
   text-decoration:none;
   text-shadow:0px -1px 0px #2b665e;
   float: right;
+  margin-top: 2px;
 }
 button:hover {
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3e8b85), color-stop(1, #768d87));
@@ -99,9 +100,13 @@ button:active {
 
 
 .fa-shopping-cart {
-  margin-left: 2.7em;;
+  margin-left: 2.7em;
 }
 
+.purchased {
+  border-top: solid #000 1px;
+  margin-top: 30px;
+}
 .box {
   float: left;
   margin-top: -1px;
@@ -136,4 +141,5 @@ span {
   .inset {
     padding: 3em 0;
   }
+
 }
